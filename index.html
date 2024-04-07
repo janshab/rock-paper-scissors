@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="./style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Камень-Ножницы-Бумага</title>
+</head>
+<body>
+   <div id="container">
+      <h1>Камень-Ножницы-Бумага</h1>
+      <h2 class="totalScore">Общий счет: <span id="playerScore">0</span> : <span id="computerScore">0</span></h2>
+      <div class="signsButtons">
+         <button class="item" id = "rock" onclick="play('rock')"></button>
+         <button class="item" id = "scissors" onclick="play('scissors')"></button>
+         <button class="item" id = "paper" onclick="play('paper')"></button>
+      </div>
+      <h2 id="gameResult"></h2>
+      <h4>VS</h4>
+      <div id="computerIcon" class="item"></div>
+      <h2>Компьютер</h2>
+   </div>
+   <script src="./main.js"></script>
+</body>
+</html>
